@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html, body {
     background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +21,12 @@ img {
     width: 180px;
     height: 180px;
     float:left;
+    padding: 7px;
+    cursor: pointer;
+}
+
+img:hover {
+    background-color: blue;
 }
 
 footer {

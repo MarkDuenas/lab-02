@@ -33,9 +33,14 @@ $.ajax('../data/page-1.json')
 $('.filter').on('click', function() {
     let value = this.value;
 
-    let allImagesValue = $('img').attr('alt');
+    let $allImagesValue = $('img');
 
-    // console.log(value);
-    console.log(allImagesValue);
+    for(let i = 0; i < $allImagesValue.length; i ++ ) {
+        if($allImagesValue[i].alt !== value) {
+            $($allImagesValue[i]).hide();
+        } else if( $allImagesValue[i].alt === value) {
+            $($allImagesValue[i]).show();
+        }
+    }
 })
 

@@ -1,0 +1,25 @@
+html, body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center
+}
+
+.photo-container {
+    margin:auto;
+    width: 960px;
+    overflow: auto;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    float:left;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+}

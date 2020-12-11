@@ -3,30 +3,12 @@
 }
 
 html, body {
-    background-color: beige;
+    background-color: skyblue;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     text-align: center
-}
-
-.photo-container {
-    margin:auto;
-    width: 960px;
-    overflow: auto;
-}
-
-img {
-    width: 180px;
-    height: 180px;
-    float:left;
-    padding: 7px;
-    cursor: pointer;
-}
-
-img:hover {
-    background-color: blue;
 }
 
 footer {

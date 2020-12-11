@@ -30,7 +30,7 @@ $.ajax('../data/page-1.json')
     })
 
 
-$('.filter').on('click', function() {
+$('.filter').on('change', function() {
     let value = this.value;
 
     let $allImagesValue = $('img');
